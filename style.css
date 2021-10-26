@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,10 +17,13 @@ header {
   padding: 5rem 0;
   text-align: center;
   font-size: 3rem;
+  font-weight: 100;
 }
 .subheading {
   margin-top: -4rem;
-  color: #a2a3bb;
+  color: #999;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 .main {
   font-size: 1.5rem;
@@ -56,10 +59,12 @@ header {
 .dec_text {
   padding-right: 0.5rem;
   color: #fbf9ff;
+  font-weight: 300;
 }
 .bin_text {
   padding: 0 0.5rem 0 1.5rem;
   color: #fbf9ff;
+  font-weight: 300;
 }
 input[type="number"] {
   border: none;
@@ -120,4 +125,10 @@ footer {
   padding-top: 0.4rem;
   color: #555;
   font-size: 0.8rem;
+}
+.chse {
+  font-weight: 300;
+}
+span {
+  font-weight: 300;
 }
