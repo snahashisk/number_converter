@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="heading">Decimal to <span class="type"></span></h1>
+        <p class="subheading">Created By Snahashis Kanrar</p>
+        <div class="choose">
+          <label for="method">Choose a Number System</label>
+          <select name="method" id="method" class="select" onchange="getselectvalue(),methodSelect(selvalue)">
+            <option disabled selected>Choose a Method</option>
+            <option value="1">Binary</option>
+            <option value="2">Hexadecimal</option>
+            <option value="3">Octal</option>
+          </select>
+        </div>
+      </header>
+      <div class="main">
+        <div class="input">
+          <p class="dec_text">Decimal Number:</p>
+          <input type="number" id="dec_num" placeholder="Enter decimal" />
+        </div>
+        <div class="output">
+          <p class="bin_text" id="bin_text">Binary Number:</p>
+          <p class="result" id="result">Result &nbsp</p>
+        </div>
+      </div>
+      <div class="submit">
+        <button class="btn" id="btnn">Submit</button>
+        <button class="reset" id="reset">Reset</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./typed.min.js"></script>
+    <script>
+      var typed = new Typed(".type", {
+        strings: ["Binary Converter.", "Hexadecimal Converter.", "Octal Converter."],
+        backSpeed: 60,
+        typeSpeed: 60,
+        loop: true,
+        shuffle: true,
+      });
+    </script>
+  </body>
+</html>
