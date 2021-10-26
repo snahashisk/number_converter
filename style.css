@@ -108,3 +108,16 @@ select:focus {
   outline: none;
   border: 1px solid #bbbbbb;
 }
+footer {
+  background-color: #111;
+  height: 4rem;
+  width: 100vw;
+  position: absolute;
+  bottom: 0rem;
+}
+.copy {
+  text-align: center;
+  padding-top: 0.4rem;
+  color: #555;
+  font-size: 0.8rem;
+}
