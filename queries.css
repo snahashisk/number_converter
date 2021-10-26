@@ -3,6 +3,7 @@
     position: absolute;
     top: 45%;
     width: 100vw;
+    justify-content: center;
   }
 
   .submit {
